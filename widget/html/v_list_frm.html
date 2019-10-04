@@ -99,7 +99,7 @@
 
 		<li onclick="openWin('{{= value. url }}')">
 			<div class="video-mask-box">
-				<img src="www.52can.xyz{{= value. img }}" alt="" class="game-pic">
+				<img src="http://52can.xyz{{= value. img }}" alt="" class="game-pic">
 			</div>
 			<em class="aui-group-three" style=" font-size: 12px; "> {{= value. title }}</em>
 		</li>
@@ -356,7 +356,7 @@
 			var div_list = $api.byId('div_list');
 			var template = $api.byId('template');
 			api.ajax({
-				url: 'www.52can.xyz/login/login/vlist.html',
+				url: 'http://52can.xyz/login/login/vlist.html',
 				method: 'get'
 			}, function(ret, err) {
 				if(ret) {
